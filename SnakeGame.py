@@ -291,7 +291,6 @@ def tela_regras():
             "4. A maçã azul é especial e dá mais pontos!",
             "5. Você pode escolher a dificuldade no menu.",
             "Pressione 'V' para voltar ao menu principal.",
-            "Se Leres isto Ana Clara Sereno Araujo EU AMOTE MUITO"
         ]
         
         for i, linha in enumerate(regras_texto):
