@@ -22,15 +22,15 @@ tela = pygame.display.set_mode((largura, altura))
 relogio = pygame.time.Clock()
 
 # Carregar o logo do jogo
-logo = pygame.image.load(resource_path("E:\Coisas essências para o Pc  (CSGO)\Todos os projetos\Projetos para meter GitHub\Projetos Python\SnakeGameFirst\Icon\Logo Cobrinha.png"))  # Substitua pelo caminho correto do arquivo
+logo = pygame.image.load(resource_path("Icon\Logo Cobrinha.png"))  # Substitua pelo caminho correto do arquivo
 logo = pygame.transform.scale(logo, (200, 100))  # Redimensiona o logo
 
 # Carregando sons
-comer_macas_sound = pygame.mixer.Sound(resource_path("E:\Coisas essências para o Pc  (CSGO)\Todos os projetos\Projetos para meter GitHub\Projetos Python\SnakeGameFirst\Efeitos sonoros\Comer.mp3"))  # Efeito sonoro para comer maçãs
-game_over_sound = pygame.mixer.Sound(resource_path("E:\Coisas essências para o Pc  (CSGO)\Todos os projetos\Projetos para meter GitHub\Projetos Python\SnakeGameFirst\Efeitos sonoros\GameOveryhhh.mp3"))  # Efeito sonoro de Game Over
+comer_macas_sound = pygame.mixer.Sound(resource_path("Efeitos sonoros\Comer.mp3"))  # Efeito sonoro para comer maçãs
+game_over_sound = pygame.mixer.Sound(resource_path("Efeitos sonoros\GameOveryhhh.mp3"))  # Efeito sonoro de Game Over
 
 # Música de fundo com volume reduzido
-pygame.mixer.music.load(resource_path("E:\Coisas essências para o Pc  (CSGO)\Todos os projetos\Projetos para meter GitHub\Projetos Python\SnakeGameFirst\Efeitos sonoros\Musicadefundo.mp3"))  
+pygame.mixer.music.load(resource_path("Efeitos sonoros\Musicadefundo.mp3"))  
 pygame.mixer.music.set_volume(0.01)  # Reduzindo o volume da música de fundo
 pygame.mixer.music.play(-1)  # Toca a música de fundo em loop
 
