@@ -1,51 +1,49 @@
-# SnakeGameFirst
-
 # Classic Snake Game 90s (Python)
 
-Este repositório contém o código-fonte de um jogo da cobrinha clássico inspirado na versão dos anos 90, desenvolvido com Python e a biblioteca `pygame`.  
-O jogo inclui diversos recursos, como diferentes níveis de dificuldade, vidas extras, maçãs especiais e efeitos sonoros nostálgicos!
+This repository contains the source code for a classic Snake game inspired by the 90s version, developed with Python and the `pygame` library.  
+The game includes several features such as different difficulty levels, extra lives, special apples, and nostalgic sound effects!
 
-## Funcionalidades Principais
+## Main Features
 
-- **Movimentação da Cobrinha**: Controlada pelas setas do teclado.
-- **Maçãs Especiais**: Aparecem periodicamente e concedem mais pontos.
-- **Dificuldade Ajustável**: Três níveis de dificuldade (Fácil, Médio, Difícil).
-- **Vidas Extras**: O jogador possui até três vidas antes do fim de jogo.
-- **Efeitos Sonoros e Música**: Sons nostálgicos de comer maçãs e efeito de "Game Over".
-- **Tela de Game Over**: Com opções para reiniciar o jogo, voltar ao menu principal ou sair.
+- **Snake Movement**: Controlled by the arrow keys.
+- **Special Apples**: Periodically appear and grant extra points.
+- **Adjustable Difficulty**: Three difficulty levels (Easy, Medium, Hard).
+- **Extra Lives**: The player has up to three lives before the game ends.
+- **Sound Effects and Music**: Nostalgic sounds for eating apples and a "Game Over" sound effect.
+- **Game Over Screen**: With options to restart the game, return to the main menu, or exit.
 
-## Instruções de Jogo
+## Game Instructions
 
-- **Movimento**: Use as setas direcionais do teclado para mover a cobrinha.
-- **Objetivo**: Comer as maçãs para crescer e aumentar a pontuação.
-- **Atenção**: Evite bater nas paredes ou em si mesmo, ou você perderá vidas.
-- **Maçãs Especiais**: As maçãs azuis concedem bônus, mas desaparecem após 5 segundos.
-- **Dificuldades**: No menu principal, é possível selecionar entre três dificuldades.
+- **Movement**: Use the arrow keys to move the snake.
+- **Objective**: Eat apples to grow and increase your score.
+- **Be Careful**: Avoid hitting walls or yourself, or you will lose lives.
+- **Special Apples**: Blue apples give bonuses but disappear after 5 seconds.
+- **Difficulty**: In the main menu, you can select between three difficulty levels.
 
-## Recursos
+## Assets
 
-- **Imagens e Sons**: O projeto utiliza imagens e sons que podem ser personalizados, localizados nas pastas `Icon` e `Efeitos sonoros`.
-- **Logo**: O logo do jogo é carregado no menu principal e pode ser alterado substituindo o arquivo `Logo Cobrinha.png` na pasta `Icon`.
+- **Images and Sounds**: The project uses customizable images and sounds, located in the `Icon` and `Sound Effects` folders.
+- **Logo**: The game logo is displayed on the main menu and can be changed by replacing the `Snake Logo.png` file in the `Icon` folder.
 
-## Como Personalizar
+## How to Customize
 
-- **Imagens**: Substitua os arquivos na pasta `Icon` para alterar a aparência do jogo.
-- **Sons**: Para modificar os efeitos sonoros, substitua os arquivos na pasta `Efeitos sonoros`.
+- **Images**: Replace the files in the `Icon` folder to change the appearance of the game.
+- **Sounds**: To modify the sound effects, replace the files in the `Sound Effects` folder.
 
-## Controles
+## Controls
 
-- Setas direcionais: Movem a cobrinha.
-- Enter: Seleciona as opções no menu.
-- `V`: Retorna ao menu principal na tela de regras.
+- Arrow keys: Move the snake.
+- Enter: Select menu options.
+- `V`: Return to the main menu on the rules screen.
 
-## Estrutura do Código
+## Code Structure
 
-- **menu_principal()**: Gerencia a navegação no menu principal.
-- **correr_jogo()**: Executa a lógica do jogo principal, incluindo movimentação, colisão e pontuação.
-- **tela_game_over()**: Exibe a tela de "Game Over" com opções de reiniciar ou sair.
-- **tela_regras()**: Exibe as regras do jogo.
-- **selecionar_dificuldade()**: Permite escolher a dificuldade.
+- **menu_principal()**: Manages navigation in the main menu.
+- **run_game()**: Executes the main game logic, including movement, collision, and scoring.
+- **game_over_screen()**: Displays the "Game Over" screen with options to restart or exit.
+- **rules_screen()**: Displays the game rules.
+- **select_difficulty()**: Allows the player to choose the difficulty level.
 
-## Contribuições
+## Contributions
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias ou novas funcionalidades.
+Contributions are welcome! Feel free to open issues or submit pull requests with improvements or new features.
